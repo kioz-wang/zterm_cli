@@ -1,16 +1,17 @@
 .{
     .name = .zterm_cli,
-    .version = "0.14.4",
+    .version = "0.14.0",
     .fingerprint = 0x718129212e6d60fa,
     .minimum_zig_version = "0.14.0",
 
     .dependencies = .{
-        .zargs = .{
-            .url = "git+https://github.com/kioz-wang/zargs#ff6152d6d52e666b38862b4efa2ceccde79b2f8f",
-            .hash = "zargs-0.14.7-tqzWbpCECADLwQq4zJclQnOqA-r9JtHsx5QIgQBb0stI",
-        },
         .zterm = .{
-            .path = "../zterm",
+            .url = "git+https://github.com/kioz-wang/zterm#5a47f9a17285125fe35cb878759e01647899d814",
+            .hash = "zterm-0.14.4-buNfZ2o2BABFTy1TcC-Ecc2dytTdrX-fa1m98pioOQn-",
+        },
+        .zargs = .{
+            .url = "git+https://github.com/kioz-wang/zargs#472c3ea47599b8c97483c49ab06e955b3f1c7056",
+            .hash = "zargs-0.14.8-tqzWbrYcCQCz-8u7zbHBHzjgOCmKXMzbam9CZ89Y6ATR",
         },
     },
 
